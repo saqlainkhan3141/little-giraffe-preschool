@@ -1,0 +1,1220 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Kidschool - Education, Kindergarten, Preschool, and Children Learning Center HTML Template. Creative design, fully responsive, and easy to customize for daycare centers, nursery schools, and childcare institutions.">
+    <meta name="keywords" content="Kidschool, Kindergarten, Preschool, Nursery, Daycare, Children Education, Kids Learning Center, School Website Template, Creative Kids Template, Bootstrap Kidschool">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Little Giraffe International Preschool</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- magnipic -->
+    <link rel="stylesheet" href="assets/css/magnipic-popup.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Mobile Feature & Animations Customization CSS -->
+    <style>
+        /* Mobile Scaling for background animations so they don't break layout */
+        @media (max-width: 991px) {
+            /* Scale desktop shapes for mobile view */
+            img[src*="shape"], img[class*="animation-"], .animate__wobble__two, .animate__swing {
+                max-width: 60px !important; 
+                height: auto !important;
+                opacity: 0.8; /* Subtle look on small screens */
+            }
+            
+            /* Specific fix for hero shapes to prevent horizontal scroll */
+            img[src*="banner-shape"] {
+                max-width: 50% !important; /* The full width clouds */
+            }
+
+            /* Extra fix for dashed borders on mobile */
+            .tw-border-dashed {
+                height: auto !important;
+                padding-top: 1rem;
+            }
+            
+            /* Prevent x overflow on mobile with all shapes active */
+            body, html {
+                overflow-x: hidden !important;
+            }
+
+            /* FAB Bottom Action Bar */
+            .mobile-action-bar {
+                display: flex !important;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                box-shadow: 0 -5px 15px rgba(0,0,0,0.08);
+                z-index: 99999;
+                padding: 10px 15px;
+                justify-content: space-around;
+                align-items: center;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            
+            /* Give body bottom padding so you can scroll past the bottom bar */
+            body { padding-bottom: 75px !important; }
+
+            .mobile-action-bar .action-btn {
+                flex: 1;
+                text-align: center;
+                padding: 12px 10px;
+                margin: 0 8px;
+                border-radius: 12px;
+                font-weight: 700;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                font-size: 15px;
+                transition: transform 0.2s ease;
+            }
+            
+            .mobile-action-bar .action-btn:active {
+                transform: scale(0.95);
+            }
+
+            .action-btn-call { 
+                background: #14B8A6; 
+                color: #ffffff; 
+                box-shadow: 0 4px 10px rgba(20, 184, 166, 0.3);
+            }
+            .action-btn-enroll { 
+                background: #F43F5E; 
+                color: #ffffff; 
+                box-shadow: 0 4px 10px rgba(244, 63, 94, 0.3);
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .mobile-action-bar { display: none !important; }
+        }
+    </style>
+
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+
+<style>
+:root {
+    --main-h: 195;
+    --main-s: 90%;
+    --main-l: 55%;
+    --main-two-h: 335;
+    --main-two-s: 95%;
+    --main-two-l: 65%;
+}
+.bg-main-two-200 { background-color: #FEF08A !important; }
+.bg-main-600 { background-color: #38BDF8 !important; }
+.text-main-600 { color: #EC4899 !important; }
+.btn-main { background-color: #EC4899 !important; color: white !important; } 
+.btn-main-two { background-color: #84CC16 !important; color: white !important; }
+</style>
+</head>
+
+<body>
+    <!--==================== Preloader Start ====================-->
+    <div class="loader-mask">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!-- ========================== Settings Panel start ==================================== -->
+    <div class="settings-panel position-fixed top-50 translate-middle-y tw-z-999 d-flex align-items-center">
+        <button type="button" class="settings-button tw-w-12 tw-h-12 bg-main-600 text-white hover-bg-main-800 tw-duration-100 d-flex justify-content-center align-items-center">
+    <i class="ph-fill ph-gear-six setting-icon tw-text-2xl tw-leading-none animation-rotate tw-w-6 tw-h-6"></i>
+    <i class="ph-bold ph-x close-icon tw-text-2xl tw-leading-none tw-w-6 tw-h-6"></i>
+  </button>
+
+        <div class="settings-panel__content bg-white tw-px-6 tw-py-13 d-flex flex-column tw-gap-10 scroll-sm overflow-y-auto">
+            <div class="d-flex flex-column tw-gap-10">
+                <div class="">
+                    <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
+                        Cursor
+                    </h6>
+                    <div class="settings-panel__buttons cursor__buttons d-flex tw-gap-4">
+                        <button type="button" class="settings-panel__button cursor-animate bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active">
+            Animate
+          </button>
+                        <button type="button" class="settings-panel__button cursor-default bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1">
+            Default
+          </button>
+                    </div>
+                </div>
+                <div class="">
+                    <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
+                        Direction
+                    </h6>
+                    <div class="settings-panel__buttons d-flex tw-gap-4">
+                        <button type="button" class="settings-panel__button direction-ltr bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active">
+            LTR
+          </button>
+                        <button type="button" class="settings-panel__button direction-rtl bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1">
+            RTL
+          </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================== Settings Panel end ==================================== -->
+
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="progress-wrap cursor-big">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+    <!-- ==================== Mobile Menu Start Here ==================== -->
+    <div class="mobile-menu d-xl-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ">
+
+        <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-white bg-neutral-500 hover-bg-neutral-900 hover-text-white"> 
+        <i class="ph ph-x"></i>
+    </button>
+
+        <div class="mobile-menu__inner">
+            
+
+
+
+
+<a href="index.html" class="logo d-flex align-items-center" style="gap:12px;">
+    <img src="assets/images/logo/logo.png" alt="Logo" style="max-height: 65px; width: auto;">
+    <span style="font-weight: 800; font-size: 1.3rem; color: #070713; line-height: 1.1;" class="d-none d-sm-block text-start">
+        Little Giraffe<br>
+        <span style="font-size: 0.82rem; font-weight: 600; color: #EC4899;">International Preschool</span>
+    </span>
+</a>
+
+
+
+
+
+            <div class="mobile-menu__menu">
+                <!-- Nav menu Start -->
+                
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav-menu align-items-center d-block tw-mt-8">
+    <li class="nav-menu__item"><a href="index.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Home</a></li>
+    <li class="nav-menu__item"><a href="about-us.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">About Us</a></li>
+    <li class="nav-menu__item"><a href="programs.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Programs</a></li>
+    <li class="nav-menu__item"><a href="gallery.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Gallery</a></li>
+    <li class="nav-menu__item"><a href="contact.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Contact</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Nav menu End  -->
+
+        </div>
+    </div>
+</div>
+<!-- ==================== Mobile Menu End Here ==================== -->
+
+    <!-- ================================ top header start ================================ -->
+<div class="bg-white">
+    <div class="container">
+        <div class="tw-pt-6 tw-pb-4 tw-px-6 border-bottom border-neutral-400 border-top-0 border-start-0 border-end-0 tw-border-dashed">
+            <div class="d-flex align-items-center tw-gap-3 justify-content-between">
+                <div class="">
+                    <div class="d-flex align-items-center tw-gap-6">
+                        <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+                            <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
+                                <i class="ph-fill ph-phone"></i>
+                            </span>
+                            <a href="tel:+918105434544" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">+91 8105434544</a>
+        </div>
+        <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+            <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
+                                <i class="ph-fill ph-envelope-simple"></i>
+                            </span>
+            <a href="mailto:admissions@littlegiraffepreschool.com" class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">admissions@littlegiraffepreschool.com</a>
+        </div>
+        <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+            <span class="tw-w-8 tw-h-8 rounded-circle bg-main-two-600 d-flex align-items-center justify-content-center tw-text-base text-white">
+                                <i class="ph-fill ph-map-pin"></i>
+                            </span>
+            <span class="fw-normal tw-text-305 text-black hover-text-main-600 tw-duration-300">Vivekanandanagar, Channapatna</span>
+        </div>
+        </div>
+        </div>
+        <div class="d-flex align-items-center tw-gap-4">
+            <div class="d-flex align-items-center tw-gap-105">
+                <span class="tw-text-xl text-main-600 ">
+                            <i class="ph-bold ph-question"></i>
+                        </span>
+                <a href="our-faq.html" class="fw-normal tw-text-305 text-black hover-text-main-600">
+                            FAQ’s
+                        </a>
+            </div>
+            
+            <div class="">
+                <div class="d-flex align-items-center tw-gap-1">
+                    <img src="https://flagcdn.com/w40/in.png" alt="img" style="width: 24px; height: 16px; objectFit: cover; borderRadius: 2px;">
+                    <select class="border-0 form-select">
+                                <option value="1">IN</option>
+                                <option value="1">BN</option>
+                                <option value="1">HI</option>
+                                <option value="1">AR</option>
+                                <option value="1">FR</option>
+                                <option value="1">ES</option>
+                            </select>
+                </div>
+            </div>
+            <div class="">
+                <ul class="d-flex align-items-center tw-gap-3">
+                    <li>
+                        <a href="https://www.facebook.com/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
+                                    <i class="ph-fill ph-facebook-logo"></i>
+                                </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
+                                    <i class="ph-bold ph-x-logo"></i>
+                                </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
+                                    <i class="ph-fill ph-twitter-logo"></i>
+                                </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" class="tw-text-xl text-black hover-text-main-600 tw-duration-300">
+                                    <i class="ph-bold ph-instagram-logo"></i>
+                                </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- ================================ top header end ================================ -->
+
+        <div class="search_popup">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="search_wrapper">
+                            <div class="search_top d-flex justify-content-between align-items-center">
+                                <div class="search_logo">
+                                    
+
+
+
+
+<a href="index.html" class="logo d-flex align-items-center" style="gap:12px;">
+    <img src="assets/images/logo/logo.png" alt="Logo" style="max-height: 65px; width: auto;">
+    <span style="font-weight: 800; font-size: 1.3rem; color: #070713; line-height: 1.1;" class="d-none d-sm-block text-start">
+        Little Giraffe<br>
+        <span style="font-size: 0.82rem; font-weight: 600; color: #EC4899;">International Preschool</span>
+    </span>
+</a>
+
+
+
+
+
+                                </div>
+                                <div class="search_close">
+                                    <button type="button" class="search_close_btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                                </div>
+                            </div>
+                            <div class="search_form">
+                                <form action="#">
+                                    <div class="search_input">
+                                        <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                        <span class="search-focus-border"></span>
+                                        <button type="submit">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-popup-overlay"></div>
+
+
+        <!-- ==================== Header Start Here ==================== -->
+        <header class="header bg-main-two-200 tw-transition-all tw-z-99">
+            <div class="container container-two">
+                <nav class="d-flex align-items-center justify-content-between position-relative bg-white tw-p-6 tw-rounded-bottom-16-px">
+                    <!-- Logo Start -->
+                    <div class="logo">
+                        
+
+
+
+
+<a href="index.html" class="logo d-flex align-items-center" style="gap:12px;">
+    <img src="assets/images/logo/logo.png" alt="Logo" style="max-height: 65px; width: auto;">
+    <span style="font-weight: 800; font-size: 1.3rem; color: #070713; line-height: 1.1;" class="d-none d-sm-block text-start">
+        Little Giraffe<br>
+        <span style="font-size: 0.82rem; font-weight: 600; color: #EC4899;">International Preschool</span>
+    </span>
+</a>
+
+
+
+
+
+                    </div>
+                    <!-- Logo End  -->
+
+                    <!-- Menu Start  -->
+                    <div class="header-menu ">
+                        <!-- Nav menu Start -->
+                        
+
+
+
+<ul class="nav-menu d-lg-flex align-items-center tw-gap-6">
+    <li class="nav-menu__item"><a href="index.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Home</a></li>
+    <li class="nav-menu__item"><a href="about-us.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">About Us</a></li>
+    <li class="nav-menu__item"><a href="programs.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Programs</a></li>
+    <li class="nav-menu__item"><a href="gallery.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Gallery</a></li>
+    <li class="nav-menu__item"><a href="contact.html" class="nav-menu__link tw-pe-5 text-neutral-950 tw-py-5 fw-medium w-100">Contact</a></li>
+</ul>
+
+
+
+
+<!-- Nav menu End  -->
+
+      </div>
+      <!-- Menu End  -->
+
+      <!-- Header Right start -->
+      <div class="d-flex align-items-center tw-gap-4">
+        <div class="d-flex align-items-center tw-gap-4">
+        <div class="">
+          <button type="button" class="open-search tw-text-6 tw-w-13 tw-h-13 bg-main-two-50 text-main-600 rounded-circle d-flex align-items-center justify-content-center hover-bg-main-600 hover-text-white tw-duration-300">
+          <i class="ph-bold ph-magnifying-glass"></i> 
+        </button>
+        </div>
+        
+                <div class="">
+                    <a href="https://wa.me/918105434544" class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-border-bottom-header" data-block="button">
+            <span class="button__flair"></span>
+            <span class="button__label">WhatsApp</span>
+            <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
+              <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+            </span>
+          </a>
+                </div>
+                </div>
+                <button type="button" class="toggle-mobileMenu leading-none d-xl-none ms-3 text-neutral-800 tw-text-9">
+          <i class="ph ph-list"></i>
+        </button>
+                </div>
+                <!-- Header Right End  -->
+                </nav>
+                </div>
+        </header>
+        <!-- ==================== Header End Here ==================== -->
+
+
+        <!-- ================================ banner section start ================================ -->
+        <section class="bg-main-two-200 pt-74 pb-120 position-relative z-3 overflow-hidden">
+            <img src="assets/images/shape/banner-shape1.png" alt="shape" class="position-absolute bottom-0 tw-start-0 z-n1  w-100">
+            <img src="assets/images/shape/banner-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 z-1  w-100">
+            <img src="assets/images/shape/banner-shape3.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me-8 z-n1 tw-mb-134-px  animation-upDown">
+            <img src="assets/images/shape/banner-shape4.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-244-px  animation-upDown z-n1">
+            <img src="assets/images/shape/banner-shape5.png" alt="shape" class="position-absolute tw-start-0 bottom-0 tw-ms-17 z-n1 animation-upDown ">
+            <img src="assets/images/shape/banner-shape6.png" alt="shape" class="position-absolute tw-end-0 top-0 tw-mt-17 tw-me-82-px  animation-scalation">
+            <img src="assets/images/shape/banner-shape7.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-15 tw-ms-104-px animate__wobble__two ">
+            <img src="assets/images/shape/banner-shape-6.png" alt="shape" class="position-absolute top-0 tw-end-0 ">
+            <div class="container">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div>
+                            <h2 class="fw-bold text-neutral-950 tw-mb-5" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Little Giraffe International Preschool</h2>
+                            <p class="tw-text-lg fw-normal text-paragraph-600 tw-mb-8 max-w-550-px w-100" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">A colorful and friendly preschool where little minds grow bright. Located securely in Vivekanandanagar, Channapatna, we help build trust and shape futures for ages 3-6.</p>
+                            <div class="d-flex align-items-center tw-gap-4 flex-wrap" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                <a href="https://wa.me/918105434544" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 tw-border-bottom-main-two-600 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4" data-block="button">
+                            <span class="button__flair"></span>
+                            <span class="button__label">Enroll Now</span>
+                            <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
+                                <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+                            </span>
+                        </a>
+                                <div class="d-flex align-items-center tw-gap-3">
+                                    <span class="">
+                                <img src="assets/images/icon/banner-icon1.png" alt="icon">
+                            </span>
+                                    <div>
+                                        <span class="fw-normal tw-text-4 text-black tw-mb-2">Call Now</span>
+                                        <h2 class="h5">Little Giraffe International Preschool</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="d-flex align-items-center justify-content-center bg-img">
+                            <img src="assets/images/thumbs/banner-img1.png" alt="img" class="bg-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================================ banner section end ================================ -->
+
+        <!-- ======================= about our kindergarden top section start ======================= -->
+        <div class="pt-110">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Experts Instructors</span>
+                        <h1 class="fw-normal text-main-600 counter">563+</h1>
+                    </div>
+                    <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border " data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"></span>
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Years of Experience</span>
+                        <h1 class="fw-normal text-main-600 counter">55+</h1>
+                    </div>
+                    <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border " data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"></span>
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                        <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Our Students</span>
+                        <h1 class="fw-normal text-main-600 counter">46K+</h1>
+                    </div>
+                    <span class="tw-h-96-px tw-w-px tw-border-dashed border-neutral-300 border " data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"></span>
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+                        <span class="fw-semibold tw-text-405 text-neutral-600 tw-mb-4">Class Enrolled</span>
+                        <h1 class="fw-normal text-main-600 counter">678+</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================= about our kindergarden top section end ======================= -->
+
+
+        <!-- ======================= about our kindergarden section start ======================= -->
+        <section class="py-110 position-relative">
+            <img src="assets/images/shape/kindergarden-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0  animation-upDown tw-mt-8 z-n1">
+            <img src="assets/images/shape/kindergarden-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0  animation-scalation tw-me-144-px z-n1">
+            <img src="assets/images/shape/kindergarden-shape3.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me-17 tw-mb-150-px animation-upDown  z-n1">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="position-relative">
+                            <span>
+                        <img src="assets/images/thumbs/kindergarden-img1.png" alt="img">
+                    </span>
+                            <img src="assets/images/shape/kindergarden-shape4.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-234-px tw-ms--72-px  animation-upDown">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex justify-content-center">
+                            <div class="max-w-520-px w-100">
+                                <span class="fw-normal tw-text-405 text-main-600 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Welcome to Little Giraffe International</span>
+                                <h2 class="text-neutral-950 fw-bold tw-mb-7 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">A Safe, Joyful Environment for Early Learning</h2>
+                                <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-7 line-height-28-px" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Our mission is to help children discover their potential through engaging, play-based education in a highly secure and loving atmosphere.</p>
+                                <div class="tw-mb-11" data-aos="fade-up" data-aos-duration="600" data-aos-delay="260">
+                                    <div class="">
+                                        <span class="text-lg fw-semibold tw-mb-3 d-block text-heading text-capitalize cursor-small">
+                                    Creativity
+                                </span>
+                                        <div class="progress-container style-yellow" data-percentage="90">
+                                            <div class="progress active"></div>
+                                            <div class="percentage active cursor-small">0%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap tw-mb-7" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                    <div class="d-flex align-items-center tw-gap-4 animation-item">
+                                        <span>
+                                    <img src="assets/images/icon/kindergarden-icon1.png" alt="icon" class="animate__swing">
+                                </span>
+                                        <h2 class="fw-bold text-neutral-950 line-height-28-px h6">Safe &amp; Caring Environment</h2>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-4 animation-item">
+                                        <span>
+                                    <img src="assets/images/icon/kindergarden-icon2.png" alt="icon" class="animate__swing">
+                                </span>
+                                        <h2 class="fw-bold text-neutral-950 line-height-28-px h6">Trained Teachers</h2>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center tw-gap-4 flex-wrap" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+                                    <a href="about-us.html" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-border-bottom-our-kindergarden" data-block="button">
+                                <span class="button__flair"></span>
+                                <span class="button__label">Read More</span>
+                                <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
+                                    <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+                                </span>
+                            </a>
+                                    <div class="position-relative">
+                                        <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                                            <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg" class="play-button tw-w-15 tw-h-15 border-main-two-600 border rounded-circle d-flex align-items-center justify-content-center">
+                                        <span class="tw-w-11 tw-h-11 bg-main-two-600 rounded-circle d-flex align-items-center justify-content-center tw-text-4 text-white">
+                                            <i class="ph-fill ph-play"></i>
+                                        </span>
+                                    </a>
+                                            <span class="fw-semibold tw-text-4 text-paragraph-600">Paly Video</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= about our kindergarden section end ======================= -->
+
+
+        <!-- ========================= slider section start ========================= -->
+        <div class="pb-110 position-relative">
+            <img src="assets/images/shape/brand-slider-shape1.png" alt="shape" class="position-absolute bottom-0  animation-upDown tw-ms-16 tw-start-0 ">
+            <div class="container">
+                <div class="swiper brand-swiper__slider gradient-width-200 left-right-gradient left-right-gradient">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img1.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img2.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img3.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img4.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img5.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img6.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="assets/images/thumbs/brand-slider-img4.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= slider section end ========================= -->
+
+        <!-- ========================= our program section start ========================= -->
+        <section class="position-relative bg-main-600 py-110 overflow-hidden">
+            <img src="assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
+            <img src="assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-ms-104-px tw-mb-110-px ">
+            <img src="assets/images/shape/banner-shape3.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me--22-px tw-mb-202-px  animation-upDown">
+            <div class="mt-110 position-relative">
+                <img src="assets/images/shape/banner-shape6.png" alt="shape" class="position-absolute top-0 tw-end-0  tw-me-174-px animation-scalation">
+                <img src="assets/images/shape/our-program-shaep1.png" alt="shape" class="position-absolute top-0 tw-start-0  tw-ms-104-px">
+                <div class="container max-w-1500-px w-100">
+                    <div class="text-center tw-mb-80-px">
+                        <span class="text-white tw-text-405 fw-normal tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    Our Programs
+                </span>
+                        <h2 class="fw-bold text-white tw-mb-5 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Our Fun Learning Programs</h2>
+                        <p class="fw-normal tw-text-4 text-white" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Tailored engaging activities for holistic development (Ages 3-6).</p>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
+                                <span class="tw-mb-5">
+                            <img src="assets/images/thumbs/our-program-img1.png" alt="img">
+                        </span>
+                                <div class="text-center tw-pb-6">
+                                    <span class="fw-semibold tw-text-base text-main-600 tw-mb-3">Nursery (3-4 years)</span>
+                                    <h2 class="fw-bold tw-text-30-px text-neutral-950 tw-mb-3 h5">Play &amp; Learn</h2>
+                                    <p class="fw-normal tw-text-base text-paragraph-500 tw-mb-4">Foundational skills, social interaction, and fun activities.</p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="program-details.html" class="tw-w-10 tw-h-10 bg-main-600 rounded-circle d-flex align-items-center justify-content-center tw-text-base text-white">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted-5">
+                                <span class="tw-mb-5">
+                            <img src="assets/images/thumbs/our-program-img2.png" alt="img">
+                        </span>
+                                <div class="text-center tw-pb-6">
+                                    <span class="fw-semibold tw-text-base text-main-600 tw-mb-3">LKG (4-5 years)</span>
+                                    <h2 class="fw-bold tw-text-30-px text-neutral-950 tw-mb-3 h5">Pre-Kindergarten</h2>
+                                    <p class="fw-normal tw-text-base text-paragraph-500 tw-mb-4">Introduction to numbers, alphabets, and creative arts.</p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="program-details.html" class="tw-w-10 tw-h-10 bg-main-600 rounded-circle d-flex align-items-center justify-content-center tw-text-base text-white">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
+                                <span class="tw-mb-5">
+                            <img src="assets/images/thumbs/our-program-img3.png" alt="img">
+                        </span>
+                                <div class="text-center tw-pb-6">
+                                    <span class="fw-semibold tw-text-base text-main-600 tw-mb-3">UKG (5-6 years)</span>
+                                    <h2 class="fw-bold tw-text-30-px text-neutral-950 tw-mb-3 h5">Kindergarten</h2>
+                                    <p class="fw-normal tw-text-base text-paragraph-500 tw-mb-4">School readiness, reading, writing, and logical thinking.</p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="program-details.html" class="tw-w-10 tw-h-10 bg-main-600 rounded-circle d-flex align-items-center justify-content-center tw-text-base text-white">
+                                    <i class="ph-bold ph-arrow-right"></i>
+                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= our progran section end ========================= -->
+
+        <!-- ========================== why choose us section start ========================== -->
+        <section class="py-110 position-relative">
+            <img src="assets/images/shape/banner-shape4.png" alt="img" class="position-absolute bottom-0 tw-start-0 tw-mb-182-px animation-upDown ">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-6">
+                        <div class="tw-mb-10">
+                            <span class="fw-normal tw-text-405 text-main-600 tw-mb-5" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Why Choose Us</span>
+                            <h2 class="fw-bold text-neutral-950 tw-mb-5 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">We provide your child with an Opportunity</h2>
+                            <p class="fw-normal tw-text-4 text-paragraph-500" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Pleased to introduce you to the wonderful, passionate and committed<br> educators who are working at Skole Learning Centre. Please take a moment to <br> meet “Our Family!” We invited each of them to describe.</p>
+                        </div>
+                        <div class="row gy-4">
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                <div class="choose-us-musk-bg-img1 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
+                                    <img src="assets/images/icon/choose-us-icon1.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                                    <span class="fw-medium tw-text-405 text-white tw-mb-5">Our Course Completed</span>
+                                    <h2 class="fw-normal text-white h1">865+</h2>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                                <div class="choose-us-musk-bg-img2 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
+                                    <img src="assets/images/icon/choose-us-icon2.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                                    <span class="fw-medium tw-text-405 text-white tw-mb-5">Years of Experience</span>
+                                    <h2 class="fw-normal text-white h1">55+</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div>
+                            <div class="row gy-5">
+                                <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                                    <div class="bg-main-50 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
+                                        <img src="assets/images/icon/choose-us-icon3.png" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                                        <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Years of Experience</span>
+                                        <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                                    <div class="bg-primary-100 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
+                                        <img src="assets/images/icon/choose-us-icon4.png" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                                        <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Safety and Security</span>
+                                        <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="assets/images/thumbs/choose-us-img1.png" alt="img" class="tw-mt-5">
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================== why choose us section end ========================== -->
+
+        <!-- ============================ about us section start ============================ -->
+        
+        <div class="container">
+            <div class="tw-mt-6 position-relative">
+                <img src="assets/images/shape/about-us-shape-1.png" alt="shape" class="position-absolute bottom-0 tw-end-0 ">
+                <div class="d-flex align-items-center tw-gap-15 flex-wrap">
+                    <div class="d-flex align-items-center tw-gap-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                        <span>
+                    <img src="assets/images/icon/about-us-icon2.png" alt="icon">
+                </span>
+                        <span class="fw-bold tw-text-405 text-neutral-950">Play to Learn</span>
+                    </div>
+                    <div class="d-flex align-items-center tw-gap-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                        <span>
+                    <img src="assets/images/icon/about-us-icon2.png" alt="icon">
+                </span>
+                        <span class="fw-bold tw-text-405 text-neutral-950">Funny Games</span>
+                    </div>
+                    <div class="d-flex align-items-center tw-gap-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                        <span>
+                    <img src="assets/images/icon/about-us-icon2.png" alt="icon">
+                </span>
+                        <span class="fw-bold tw-text-405 text-neutral-950">Professional Teachers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================ about us section end ============================ -->
+
+        <!-- ========================== our team section start ========================== -->
+        
+        <!-- ========================== our team section end ========================== -->
+
+        <!-- ========================== our pricing section start ========================== -->
+        
+        <!-- ========================== our pricing section end ========================== -->
+
+
+
+
+        <div class="bg-neutral-10 position-relative">
+            <img src="assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-7 tw-ms-12 animation-upDown ">
+            <div class="tw-mb-242-px">
+                <!-- =========================== our testimonial top start =========================== -->
+                <div class="tw-mt--250-px z-2">
+                    <div class="container">
+                        <div class="position-relative" data-aos="zoom-in" data-aos-duration="1500">
+                            <img src="assets/images/thumbs/our-testimonial-top-img1.png" alt="img" class="w-100">
+                            <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg" class="play-button play-button-two border-main-two-600 border rounded-circle d-flex align-items-center justify-content-center position-absolute top-0 tw-start-0 top-50 tw-start-50 translate-middle">
+                        <img src="assets/images/icon/our-testimonial-top-icon.png" alt="icon" class="tw-w-115-px tw-h-115-px">
+                    </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- =========================== our testimonial top end =========================== -->
+
+
+
+                <!-- ============================ our testimonial section start ============================ -->
+                
+                <!-- ============================ our testimonial section end ============================ -->
+            </div>
+        </div>
+
+
+        <!-- ============================ get start section start ============================ -->
+        
+        <!-- ============================ get start section end ============================ -->
+
+        <!-- ========================= blog section start ========================= -->
+        
+
+
+        <!-- ========================= blog section end ========================= -->
+
+        <!-- ============================= newsletter section start ============================= -->
+        
+        <!-- ============================= newsletter section end ============================= -->
+
+        <!-- ==================== Footer Start Here ==================== -->
+        <footer class="footer bg-main-two-300 position-relative z-2">
+            <img src="assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
+            <img src="assets/images/shape/footer-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px  z-n1 animation-upDown">
+            <img src="assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-200-px tw-me-130-px  z-n1 animation-upDown">
+            <img src="assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb-242-px tw-me-130-px  z-n1 animation-scalation">
+            <div class="py-110">
+                <div class="tw-mt-210-px">
+                    <div class="container container-two">
+                        <div class="row gy-5">
+                            <div class="col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                                <div>
+                                    
+
+
+
+
+<a href="index.html" class="logo d-flex align-items-center" style="gap:12px;">
+    <img src="assets/images/logo/logo.png" alt="Logo" style="max-height: 65px; width: auto;">
+    <span style="font-weight: 800; font-size: 1.3rem; color: #070713; line-height: 1.1;" class="d-none d-sm-block text-start">
+        Little Giraffe<br>
+        <span style="font-size: 0.82rem; font-weight: 600; color: #EC4899;">International Preschool</span>
+    </span>
+</a>
+
+
+
+
+
+                                    <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+                                    <ul class="d-flex align-items-center tw-gap-2 flex-wrap">
+                                        <li>
+                                            <a href="https://www.facebook.com" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-facebook-logo"></i>
+                  </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-twitter-logo"></i>
+                  </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-linkedin-logo"></i>
+                  </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-youtube-logo"></i>
+                  </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                                <div>
+                                    <h1 class="fw-bold text-neutral-950 h5">Quick Links</h1>
+                                    <span class="tw-w-82-px tw-h-05 tw-border-gradient tw-mb-7 tw-mt-5"></span>
+                                    
+
+<div class="d-flex flex-column tw-gap-3">
+    <a href="index.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Home</a>
+    <a href="about-us.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>About Us</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Programs</a>
+    <a href="gallery.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Gallery</a>
+    <a href="contact.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Contact Us</a>
+</div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                <div>
+                                    <h1 class="fw-bold text-neutral-950 h5">Our Programs</h1>
+                                    <span class="tw-w-82-px tw-h-05 tw-border-gradient tw-mb-7 tw-mt-5"></span>
+                                    
+
+<div class="d-flex flex-column tw-gap-3">
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Nursery (3-4 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>LKG (4-5 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>UKG (5-6 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Fun Activities</a>
+</div>
+
+
+                                    
+
+<div class="d-flex flex-column tw-gap-3">
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Nursery (3-4 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>LKG (4-5 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>UKG (5-6 Yrs)</a>
+    <a href="programs.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300"><span class="tw-text-405 "><i class="ph-bold ph-caret-double-right"></i></span>Fun Activities</a>
+</div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                                <div>
+                                    <h1 class="fw-bold text-neutral-950 h5">Working Hours</h1>
+                                    <span class="tw-w-82-px tw-h-05 tw-border-gradient tw-mb-7 tw-mt-5"></span>
+                                    
+
+<div class="d-flex flex-column tw-gap-3">
+    <p class="text-paragraph-600"><strong style="color: #000;">Mon - Fri:</strong><br>8:00 AM - 4:00 PM</p>
+    <p class="text-paragraph-600"><strong style="color: #000;">Saturday:</strong><br>9:00 AM - 1:00 PM</p>
+    <p class="text-paragraph-600"><strong style="color: #000;">Sunday:</strong><br>Closed (Holiday)</p>
+</div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <span class="w-100 tw-border-primary-600 tw-mt-15 tw-mb-15"></span>
+                        <div class="row gy-4">
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                                <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                                    <span class="tw-w-15 tw-h-15 bg-main-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <img src="assets/images/icon/footer-icon1.png" alt="icon">
+              </span>
+                                    <div>
+                                        <span class="fw-medium tw-text-4 text-paragraph-600 tw-mb-2
+                ">
+                  Call Us 7/24
+                </span>
+                                        <h2 class="h5">
+                                            <a href="tel:+918105434544" class="fw-semibold text-neutral-950">+91 8105434544</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                                <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                                    <span class="tw-w-15 tw-h-15 bg-main-two-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <img src="assets/images/icon/footer-icon2.png" alt="icon">
+              </span>
+                                    <div>
+                                        <span class="fw-medium tw-text-4 text-paragraph-600 tw-mb-2">
+                  Make a Quote
+                </span>
+                                        <h2 class="h5">
+                                            <a href="mailto:admissions@littlegiraffepreschool.com" class="fw-semibold text-neutral-950">admissions@littlegiraffepreschool.com</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                                    <span class="tw-w-15 tw-h-15 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-7 rounded-circle">
+                <img src="assets/images/icon/footer-icon3.png" alt="icon">
+              </span>
+                                    <div>
+                                        <span class="fw-medium tw-text-4 text-paragraph-600 tw-mb-2">
+                  Location
+                </span>
+                                        <h1 class="fw-semibold text-neutral-950 h5">Vivekanandanagar, Channapatna</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ====================== footer bottom section start ====================== -->
+            <div style="background-image: url(assets/images/bg/footer-bottom-bg-img1.png);" class="bg-img">
+                <div class="container">
+                    <div class="d-flex align-items-center tw-gap-3 flex-wrap justify-content-between tw-pt-14 tw-pb-6">
+                        <span class="fw-normal tw-text-4 text-black">© Copyright 2026 Little Giraffe International Preschool</span>
+                        <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                            <a href="javascript:void(0)" class="fw-normal tw-text-4 text-black hover-text-black hover-underline tw-duration-300">
+            Terms &amp; Condition
+          </a>
+                            <a href="javascript:void(0)" class="fw-normal tw-text-4 text-black hover-text-black hover-underline tw-duration-300">
+             Privacy Policy
+          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ====================== footer bottom section end ====================== -->
+        </footer>
+        <!-- ==================== Footer End Here ==================== -->
+
+
+        <!-- Jquery js -->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!-- phosphor Js -->
+        <script src="assets/js/phosphor-icon.js"></script>
+        <!-- Bootstrap Bundle Js -->
+        <script src="assets/js/boostrap.bundle.min.js"></script>
+        <!-- swiper js -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!-- aos -->
+        <script src="assets/js/aos.js"></script>
+        <!-- magnipic -->
+        <script src="assets/js/magnipic-popup.js"></script>
+        <!-- couterup -->
+        <script src="assets/js/counterup.min.js"></script>
+        <!-- GSAP js -->
+        <script src="assets/js/gsap.min.js"></script>
+        <!-- SplitText -->
+        <script src="assets/js/SplitText.min.js"></script>
+        <!-- Scroll Trigger -->
+        <script src="assets/js/ScrollTrigger.min.js"></script>
+        <!-- custom GSAP -->
+        <script src="assets/js/custom-gsap.js"></script>
+
+        <!-- main js -->
+        <script src="assets/js/main.js"></script>
+
+
+
+    <!-- Mobile Sticky Action Bar Element -->
+    <div class="mobile-action-bar d-none">
+        <a href="tel:+918105434544" class="action-btn action-btn-call">+91 8105434544</a>
+        <a href="https://wa.me/918105434544" class="action-btn action-btn-enroll" style="background: #25D366;"><i class="ph-bold ph-whatsapp-logo" style="font-size: 1.3rem;"></i> <span>WhatsApp Us</span></a>
+    </div>
+
+
+
+</body></html>
